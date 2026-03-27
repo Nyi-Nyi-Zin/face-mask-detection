@@ -4,6 +4,9 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 from collections import deque
 
+print("cv2:", cv2.__version__)
+print("numpy:", np.__version__)
+print("tensorflow:", tf.__version__)
 
 
 def create_model():
